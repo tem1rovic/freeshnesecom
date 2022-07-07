@@ -1,0 +1,17 @@
+.container {
+  max-width: 1340px;
+  width: 100%;
+  padding-inline: 40px;
+  margin-inline: auto;
+
+
+  @media (max-width: 991.98px) {
+    padding-inline: 30px;
+  }
+  @media (max-width: 767.98px) {
+    padding-inline: 24px;
+  }
+  @media (max-width: 567.98px) {
+    padding-inline: 12px;
+  }
+}
