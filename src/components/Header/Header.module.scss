@@ -1,3 +1,17 @@
 .Root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 40px;
+}
 
+.Right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+
+  > span {
+    cursor: pointer;
+  }
 }

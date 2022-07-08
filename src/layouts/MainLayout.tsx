@@ -16,7 +16,7 @@ const MainLayout: FC<MainLayoutProps> = ({children, title}) => {
             <meta/>
         </Head>
             <Header/>
-           <main>{children}</main>
+                <main>{children}</main>
            <Footer/>
        </>
     );

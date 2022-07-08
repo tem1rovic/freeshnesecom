@@ -2,14 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  padding-block: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  border-bottom: 1px solid var(--light-gray);
 
-.Left {
 
-}
-
-.Nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  > div, nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+  }
 }

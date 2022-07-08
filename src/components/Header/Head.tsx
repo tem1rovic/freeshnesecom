@@ -1,21 +1,20 @@
 import React, {FC} from 'react';
+import A from "components/A/A";
 import cl from './Head.module.scss'
 
 const Head: FC = () => {
     return (
         <div className={cl.Root}>
             <div className={cl.Left}>
-                <a href="/">Chat with us</a>
-                <p>+420 336 775 664</p>
-                <p>info@freshnesecom.com</p>
+                <A href={'/chats'}>Chat with us</A>
+                <div>+420 336 775 664</div>
+                <div>info@freshnesecom.com</div>
             </div>
-                <nav id="nav" className={cl.Nav}>
-                    <ul>
-                        <li><a href="/blogs">Blog</a></li>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/careers">Careers</a></li>
-                    </ul>
-                </nav>
+            <nav className={cl.Right}>
+                <A href={'/blogs'}>Blog</A>
+                <A href={'/about'}>About Us</A>
+                <A href={'/careers'}>Careers</A>
+            </nav>
         </div>
     );
 };

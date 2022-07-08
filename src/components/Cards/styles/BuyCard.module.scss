@@ -1,0 +1,63 @@
+.Root {
+  padding: 16px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+}
+
+.Img {
+  position: relative;
+  > span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6A983C;
+    z-index: 1234567;
+  }
+}
+
+.Body {
+  padding-top: 16px;
+  > h2 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+  }
+
+  > p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+
+    > div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+
+      > span {
+        font-weight: 600;
+        font-size: 18px;
+        color: #151515;
+      }
+
+      > strike {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        text-decoration-line: line-through;
+        color: #A9A9A9;
+        margin-right: auto;
+      }
+    }
+  }
+}

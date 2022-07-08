@@ -1,0 +1,12 @@
+.Root {
+  padding: 16px 45px;
+  background-color: #F9F9F9;
+  padding-block: 16px;
+
+  > div {
+    background-color: var(--light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

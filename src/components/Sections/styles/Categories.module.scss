@@ -1,0 +1,12 @@
+.Root {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Products {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  gap: 32px;
+}

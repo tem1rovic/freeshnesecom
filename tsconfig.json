@@ -20,7 +20,8 @@
       "static/*": ["static/*"],
       "styles/*": ["styles/*"],
       "layouts/*": ["layouts/*"],
-      "pages/*": ["pages/*"]
+      "pages/*": ["pages/*"],
+      "hooks/*": ["hooks/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

@@ -1,0 +1,39 @@
+.Root {
+
+}
+
+.Top {
+  margin-top: 200px;
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Center {
+  padding-block: 48px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  > h2 {
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+  }
+
+  > * {
+    min-width: max-content;
+  }
+}
+
+.Copyright {
+  padding-bottom: 64px;
+  > span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #151515;
+  }
+}

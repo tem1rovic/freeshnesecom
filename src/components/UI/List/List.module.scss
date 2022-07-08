@@ -1,0 +1,26 @@
+.Root {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  > h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #151515;
+    margin-bottom: 16px;
+  }
+
+  > a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6A983C;
+    margin-bottom: 16px;
+
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
+}

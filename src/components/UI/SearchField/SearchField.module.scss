@@ -1,0 +1,39 @@
+.Root {
+  background: #F9F9F9;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+
+   > div {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+      gap: 8px;
+     border-right: 1px solid var(--light-gray);
+     padding-right: 24px;
+
+     h1 {
+       font-weight: 700;
+       font-size: 15px;
+       line-height: 22px;
+       color: #151515;
+       min-width: max-content;
+     }
+   }
+
+  > input {
+    width: 100%;
+    padding: 0 0 0 24px;
+  }
+
+  > span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
